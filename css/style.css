@@ -1,0 +1,47 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+.memory-game{
+    display: grid;
+    grid-template-areas: "green1 red2"
+    "yellow3 blue4";
+    grid-gap: 10px;
+    border: solid rgb(26, 25, 25) 1px;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 5%;
+    width: 500px;
+    height: 500px;
+}
+.genius-game {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.blue {
+    grid-area: blue4 ;
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+.green {
+    grid-area: green1;
+    background-color:green;
+    border-top-left-radius: 100%;
+}
+.red {
+    grid-area: red2;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+.yellow {
+    grid-area: yellow3;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+.select {
+    opacity: 0.8;
+}
