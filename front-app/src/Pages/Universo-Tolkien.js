@@ -1,31 +1,9 @@
 import Grid from "../components/Grid/Grid"
 import Colum from "../components/Grid/Colum"
-import ListGroup from "../components/ListGroup"
+
 import Image from "../Image/IdadeMedia/Feanor.jpg"
-import Card1 from "../components/Card/Card1"
-import HistoriaTerraMedia from "../components/TolkienHistory/HistoriaTerraMedia"
-import PovosDaTerraMedia from "../components/TolkienHistory/PovosDaTerraMedia"
-import Linguas from "../components/TolkienHistory/Linguas"
-import OSilmarillion from "../components/TolkienHistory/OSilmarillion"
-import MagosAzuis from "../components/TolkienHistory/MagosAzuis"
-import Legolas from "../components/TolkienHistory/Elfos"
-import Elfos from "../components/TolkienHistory/Elfos"
-import FilhosDeIlúvatar from "../components/TolkienHistory/FilhosDeIlúvatar"
-import Numenor from "../components/TolkienHistory/Numenor"
-import Juramento from "../components/TolkienHistory/Juramento"
-import Accordion from "../components/Accordion/Index"
 
-
-
-
-
-
-
-
-
-
-
-
+import AcordionTolkien from "../components/TolkienHistory/AcordionTolkien"
 
 
 
@@ -41,83 +19,13 @@ const Tolkien = () => {
              onde a maioria dos contos do seu imaginário ocorrem. <br/> <br/>
             </h5>
 
-           
-             <Grid>
+                <AcordionTolkien/>
 
-                <Colum>
-                    <ListGroup>
-                        <a href="#HistoriaTerraMedia" class="list-group-item list-group-item-action">História da Terra Média</a>
-                        <a href="#PovosDaTerraMedia" class="list-group-item list-group-item-action">Povos da Terra Média</a>
-                        <a href="#Linguas" class="list-group-item list-group-item-action">Línguas</a>
-                        <a href="#OSilmarillion" class="list-group-item list-group-item-action">O Silmarillion</a>
-                    </ListGroup>
-                    <br/>
-                </Colum>
-                <br/>
-                <Colum>
-                    <ListGroup>
-                        <a href="#MagosAzuis" class="list-group-item list-group-item-action">Magos Azuis</a>
-                        <a href="#Elfos" class="list-group-item list-group-item-action">Elfos</a>
-                        <a href="#FilhosDeIluvatar" class="list-group-item list-group-item-action">Filhos de Ilúvatar</a>
-                        <a href="#Numenor" class="list-group-item list-group-item-action">Númenor</a>
-                        
-                    </ListGroup>
-                    <br/>
-                </Colum>
-                
-               
-                <Colum>
-                    <ListGroup>
-                        <a href="#Juramento" class="list-group-item list-group-item-action">A Libertação do Juramento</a>
-                        <a href="#" class="list-group-item list-group-item-action" disabeled>Maldição de Isildur</a>
-                        <a href="#" class="list-group-item list-group-item-action" disabeled>Fruta d'Ouro</a>
-                        <a href="#" class="list-group-item list-group-item-action" disabeled>Exército dos Mortos</a>
-                    </ListGroup>
-                </Colum>
-            </Grid>
-
-          
-                <Accordion>
-                 <Item1></Item1>
-               
-                </Accordion>
-              
-                
-                
-                
-                    
-                <div id="PovosDaTerraMedia"><PovosDaTerraMedia /></div>
-                <div id="Linguas"><Linguas/>   </div>
-                <div id="OSilmarillion"><OSilmarillion />  </div>
-                <div id="MagosAzuis"> <MagosAzuis/></div>
-                <div id="Elfos"><Elfos /></div>
-                <div id="FilhosDeIluvatar"> <FilhosDeIlúvatar /></div>
-                <div id="Numenor"><Numenor /></div>
-                <div id="Juramento"><Juramento/></div>
-                
-
-               
-                
-                  
-                   
-               
-                
-               
-                
-                
-            
-            
-           
-             
-      
-            
             <h2 class="card-title  text-center">Principais Personagens da idade Média em Senhor dos Anéis</h2>
             <br/>
             <br/>
             <Grid>
-            
-            
-                <Colum>
+       <Colum>
                 <div  className="card-group">
                        <div className="card">
                       
@@ -164,24 +72,9 @@ const Tolkien = () => {
                        </div>
 
                    </div>
-                        
-                        
-                        
-                    
+
                 </Colum>
             </Grid>
-            
-            
-
-
-
-
-
-
-
-
-
-
 
 
         </>

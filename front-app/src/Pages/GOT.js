@@ -3,9 +3,6 @@
 import Grid from "../components/Grid/Grid"
 import Colum from "../components/Grid/Colum"
 import ListGroup from "../components/ListGroup"
-import DefaultTemplateHouses from "../components/GotHistory/Houses/2Greyjoy"
-import HouseTyrell from "../components/GotHistory/Houses/1HouseTyrell"
-import Greyjoy from "../components/GotHistory/Houses/2Greyjoy"
 
 
 const GOT = () => {

@@ -1,9 +1,9 @@
-const ButtonAccordion1 = (props)=>{
+const BtnAcordion1 = (props)=>{
     return(
-        <div className="accordion-item">
+        <div className="accordion-item ">
             <div class="accordion-header" id="flush-headingOne " >
                 <button className="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <h3>{props.children}</h3>
+                    <h5>{props.children}</h5>
                 </button>
 
             </div>
@@ -11,4 +11,4 @@ const ButtonAccordion1 = (props)=>{
         </div>
     )
 }
-export default ButtonAccordion1
+export default BtnAcordion1

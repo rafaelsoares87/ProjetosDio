@@ -1,6 +1,6 @@
 const Navbar = (props) => {
     return(
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar navbar-light bg-light">
         <div className="container-fluid">   
             {props.children}
         </div>

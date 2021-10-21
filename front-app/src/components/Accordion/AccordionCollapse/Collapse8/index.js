@@ -1,6 +1,6 @@
 
 
-const Item8= (props) => {
+const Collapse8 = (props) => {
     return(
         <div id="flush-collapseEight" className="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
@@ -10,4 +10,4 @@ const Item8= (props) => {
         </div>
     )
 }
-export default Item8
+export default Collapse8

@@ -1,4 +1,4 @@
-const ButtonAccordion10 = (props)=>{
+const BtnAcordion10 = (props)=>{
     return(
         <div className="accordion-item">
             <div class="accordion-header" id="flush-headingTen">
@@ -11,4 +11,4 @@ const ButtonAccordion10 = (props)=>{
         </div>
     )
 }
-export default ButtonAccordion10
+export default BtnAcordion10
