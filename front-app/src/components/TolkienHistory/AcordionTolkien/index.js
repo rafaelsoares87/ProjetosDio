@@ -43,7 +43,7 @@ import BtnAcordion9 from "../../Accordion/ButtonAcordion/ButtonAcordion9"
 
 const AcordionTolkien = ()=>{
     return(
-        <>
+        <div className='TitleAccordion'>
             <Accordion>
                 <BtnAcordion2>Historia da Terra Média</BtnAcordion2>
                 <Collapse2><HistoriaTerraMedia/></Collapse2>
@@ -94,7 +94,7 @@ const AcordionTolkien = ()=>{
 
             
         
-    </>
+    </div>
     )
 }
 export default AcordionTolkien

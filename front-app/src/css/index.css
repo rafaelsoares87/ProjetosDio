@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Festive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Festive&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Festive&family=Lobster&family=Prata&display=swap');
+
 body{
     background: white;
 }
@@ -21,4 +23,18 @@ footer {
 .TitleNavbar {
     font-family: 'Lobster', cursive;
 
+}
+.TitleAccordion{
+    text-align: center;
+    font-family: 'Prata', serif;
+
+}
+.TextBody {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.PersonagensPrincipais {
+    margin-top: 6%;
+}
+.PersonTitle {
+    margin-bottom: 5%;
 }

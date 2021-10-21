@@ -17,7 +17,7 @@ const OSilmarillion = ()=>{
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text"></p>
+                                <p className='card-text TextBody'></p>
                                 
                                 <blockquote class="blockquote mb-0">
                                     <p>

@@ -20,7 +20,7 @@ const HistoriaTerraMedia = ()=>{
                             <div className="card-body">
                                 
                                
-                                <p className="card-text">A história da Terra Média está dividida em várias Eras:
+                                <p className='card-text TextBody'>A história da Terra Média está dividida em várias Eras:
                                  O Hobbit e O Senhor dos Anéis lidam exclusivamente com eventos relacionados com o fim da
                                  Terceira Era, enquanto que O Silmarillion trata principalmente da Primeira Era. O seu mundo
                                   era originalmente plano mas foi tornado redondo perto do fim da Segunda Era por Eru Ilúvatar, o Criador. <br/> <br/>
@@ -45,7 +45,7 @@ const HistoriaTerraMedia = ()=>{
                                 <br/>
                                 <footer class="blockquote-footer">Fonte: <cite title="Source Title">Wikipedia</cite></footer>
                                 <img src="http://www.visionsofthering.com/images/map_eriador.jpg" class="card-img-top" alt="Mapa da terra média"></img> <br/> <br/>
-                                <p className="card-tex">
+                                <p className='card-text TextBody'>
                                     Se o mapa da Terra Média for projectado na nossa Terra real (uma aproximação imperfeita, na melhor das
                                     hipóteses), e algumas das semelhanças climatológicas, botânicas e zoológicas mais óbvias se
                                     alinharem, o Shire (Condado) dos Hobbits situar-se-aria na temperada Inglaterra, Gondor nas mediterrânicas

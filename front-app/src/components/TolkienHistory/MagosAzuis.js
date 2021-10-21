@@ -17,7 +17,7 @@ const MagosAzuis = ()=>{
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text">
+                                <p className='card-text TextBody'>
                                         Na ficção de J.R.R.Tolkien, os Magos Azuis (ou Ithryn Luin) são dois personagens
                                         misteriosos da Terra-média. N’O Senhor dos Anéis são apenas citados quando 
                                         Saruman diz que há cinco Istari.No entanto, outros manuscritos de Tolkien têm mais a dizer. 

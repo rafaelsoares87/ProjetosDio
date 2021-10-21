@@ -17,7 +17,7 @@ const FilhosDeIlúvatar = ()=>{
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text">
+                                <p className='card-text TextBody'>
 
 
                                     Nas obras fictícias de J. R. R. Tolkien, os Filhos de Ilúvatar ou Filhos de Eru são os

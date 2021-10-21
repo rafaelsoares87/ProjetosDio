@@ -17,7 +17,7 @@ const Juramento = ()=>{
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text">
+                                <p className='card-text TextBody'>
                                     Em o Senhor dos Áneis - O Retorno do Rei, Aragorn foi até Erech e se apresentou como Legitimo
                                     Herdeiro de Isildur, e convocou os Eredrim a cumprirem o Juramento. Assim eles ajudaram
                                     na batalha do cerco à Gondor e Aragorn os desobrigou do Juramento e os libertou da Maldição 

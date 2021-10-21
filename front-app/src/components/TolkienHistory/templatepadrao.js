@@ -17,7 +17,7 @@ const Templatepadrao = ()=>{
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text"></p>
+                                <p className="card-text 'card-text TextBody'"></p>
                                 <img src="#" class="card-img-top" alt="Povos"></img> <br/> <br/>
                                 <blockquote class="blockquote mb-0">
                                     <p>A well-known quote, contained in a blockquote element.</p>

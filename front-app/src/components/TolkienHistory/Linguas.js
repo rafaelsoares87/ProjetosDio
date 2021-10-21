@@ -17,7 +17,7 @@ const Linguas = ()=>{
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text">
+                                <p className='card-text TextBody'>
                                     Originalmente, Tolkien começou a escrever O Silmarillion como uma derivação dos seus
                                     projectos de construção de linguagens. Delineou duas línguas élficas principais,
                                     que mais tarde ficariam conhecidas por Quenya, falada pelos Vanyar, pelos Noldor e

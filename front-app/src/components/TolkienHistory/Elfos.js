@@ -17,7 +17,7 @@ const Elfos = ()=>{
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text">
+                                <p className='card-text TextBody'>
                                         Nas obras de J. R. R. Tolkien, Elfos, auto-denominados Quendi, são uma das raças da Terra Média,
                                         baseados nas criaturas lendárias da Mitologia nórdica. São uma raça que, juntamente com os homens
                                         formam os "Filhos de Ilúvatar". Eles aparecem em O Hobbit e O Senhor dos Anéis, mas a sua história

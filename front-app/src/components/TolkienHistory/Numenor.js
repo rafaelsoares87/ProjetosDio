@@ -17,7 +17,7 @@ const Numenor = ()=>{
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text">
+                                <p className='card-text TextBody'>
                                         Númenor é um lugar fictício das obras de J. R. R. Tolkien. Foi uma grande ilha ou
                                         continente situada nos Grandes Mares a oeste da Terra Média, o principal 
                                         cenário dos escritos do autor, e era conhecida por ser o maior reino dos Homens.

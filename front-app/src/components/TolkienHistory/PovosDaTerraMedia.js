@@ -17,7 +17,7 @@ const PovosDaTerraMedia = ()=>{
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text">
+                                <p className='card-text TextBody'>
                                         A Terra Média é o lar de várias espécies inteligentes. Primeiro estão os Ainur, seres angelicais criados
                                         por Ilúvatar. Os Ainur ajudaram Ilúvatar a criar Arda no mito cosmológico chamado "Ainulindalë", ou "Música
                                         dos Ainur". Alguns dos Ainur entraram posteriormente em Arda, e os maiores destes são chamados de Valar.
@@ -46,7 +46,7 @@ const PovosDaTerraMedia = ()=>{
                                 </p>
 
                                 <img src="https://i.pinimg.com/originals/1c/eb/b2/1cebb23bdab0274cb0e142b1e42d5eed.jpg" class="card-img-top" alt="Povos da terra media"></img> <br/> <br/>
-                                <p className="card-text">
+                                <p className='card-text TextBody'>
                                         Os Anões têm uma posição especial nas lendas, uma vez que não foram criados por 
                                         Ilúvatar, mas por um dos Valar, de nome Aulë. Contudo, Aulë ofereceu as suas criações 
                                         a Ilúvatar, que adota os Anões e lhes dá vida e vontade próprias. Os Ents, pastores das
