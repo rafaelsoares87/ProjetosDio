@@ -12,12 +12,15 @@ import ListGroup from '../components/ListGroup'
 
 
 
+
+
+
 const Home = ()=>{
     return(
         <div className='PageStyle'>
             
         
-            <h1 className='focus-in-expand-fwd text-center'> TODOS OS UNIVERSOS FANTÁSTICOS </h1>
+            <h1 className='focus-in-expand-fwd text-center TitleHome'> TODOS OS UNIVERSOS FANTÁSTICOS FICTÍCIOS </h1>
             <br/>
             <br/>
             <br/>
@@ -36,7 +39,7 @@ const Home = ()=>{
                     <ListGroup>
                         <a href="/multiversoDc" type="button" className="btn btn-outline-success">Multiverso DC</a> <br/>
                         <a href="multiversomarvel" type="button" className="btn btn-outline-success">Multiverso Márvel</a> <br/>
-                        <a href="/Game-of-thrones" type="button" className="btn btn-outline-success">MUltiverso Dragon Ball </a> <br/>
+                        <a href="/Game-of-thrones" type="button" className="btn btn-outline-success">Multiverso Dragon Ball </a> <br/>
 
 
                     </ListGroup>
@@ -60,17 +63,17 @@ const Home = ()=>{
             <Grid>
                 <Colum>
                     <ListGroup>
-                            <a href="/Game-of-thrones" type="button" className="btn btn-outline-success">Game of Thrones</a> <br/>
-                            <a href="/Universo-Tolkien" type="button" className="btn btn-outline-success">Universo Tolkien</a> <br/>
-                            <a href="/HarryPotter" type="button" className="btn btn-outline-success">Harry Potter</a> <br/>
+                            <a href="/Game-of-thrones" type="button" className="btn btn-outline-success">Biografia dos Autores </a> <br/>
+                            <a href="/Universo-Tolkien" type="button" className="btn btn-outline-success">Livros</a> <br/>
+                            
                         
                     </ListGroup>
                 </Colum>
                 <Colum>
                     <ListGroup>
-                            <a href="/Game-of-thrones" type="button" className="btn btn-outline-success">Game of Thrones</a> <br/>
-                            <a href="/Universo-Tolkien" type="button" className="btn btn-outline-success">Universo Tolkien</a> <br/>
-                            <a href="/HarryPotter" type="button" className="btn btn-outline-success">Harry Potter</a> <br/>
+                            <a href="/Game-of-thrones" type="button" className="btn btn-outline-success">Eventos de Fãs ao redor do mundo</a> <br/>
+                            <a href="/Universo-Tolkien" type="button" className="btn btn-outline-success">Os universos fantásticos em novas séries</a> <br/>
+                            
                         
                     </ListGroup>
                 </Colum>

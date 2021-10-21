@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Festive&family=Lobster&display=swap');
 body{
     background: white;
 }
@@ -10,4 +13,12 @@ footer {
 .Margin {
     margin-left: 15px;
     gap: 15px;
+}
+
+.TitleHome {
+    font-family: 'Caveat', cursive;
+}
+.TitleNavbar {
+    font-family: 'Lobster', cursive;
+
 }

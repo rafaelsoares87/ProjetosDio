@@ -24,7 +24,7 @@ const FooterPage = ()=>{
                
            </Grid>
            <br/> <br/>
-           <p className='text-center' style={{fontSize: '14px', fontWeight: 'bold'}}>Projetos idealizado por meio de Bootcampo da Digital Innovation One</p>
+           <p className='text-center' style={{fontSize: '12px'}}>Projetos idealizado por meio de Bootcamp da Digital Innovation One</p>
            
            
 
