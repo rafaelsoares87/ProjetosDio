@@ -21,6 +21,21 @@ import Collapse7 from "../components/Accordion/AccordionCollapse/Collapse7"
 import BtnAcordion8 from "../components/Accordion/ButtonAcordion/ButtonAcordion8"
 import Collapse8 from "../components/Accordion/AccordionCollapse/Collapse8"
 import HistoryGoT from "../components/GotHistory/History/HistoryGoT"
+import GotPersons1 from "../components/GotHistory/PersonagensGoT/GoTPerson1"
+import GotPersons2 from "../components/GotHistory/PersonagensGoT/GotPerson2"
+import GotPerson3 from "../components/GotHistory/PersonagensGoT/GoTPerson3"
+import GotPersons4 from "../components/GotHistory/PersonagensGoT/GotPerson4"
+
+import House1 from "../components/GotHistory/Houses/House1"
+import House2 from "../components/GotHistory/Houses/House2"
+import Seasons1 from "../components/GotHistory/SerieTV/Seasons1"
+import Seasons2 from "../components/GotHistory/SerieTV/Seasons2"
+import Book1 from "../components/GotHistory/Books/Book1"
+import Book2 from "../components/GotHistory/Books/Book2"
+import SpinOff from "../components/GotHistory/SpinOff/SpinOff"
+import Culture from "../components/GotHistory/Culture/Culture"
+import Inspiration from "../components/GotHistory/Inspiration/Inspiration"
+import GotPerson5 from "../components/GotHistory/PersonagensGoT/GotPerson5"
 
 
 
@@ -75,31 +90,69 @@ const GOT = () => {
                 </div>
                 <div id='Personagens'className='TitleAccordion'>
                     <BtnAcordion2>Principais Personagens</BtnAcordion2>
-                    <Collapse2></Collapse2>
+                    <Collapse2>
+                            <GotPersons1/>
+                            <br/>
+                            <GotPersons2/>
+                            <br></br>
+                            <GotPerson3/>
+                            <br/>
+                            <GotPersons4/>
+                            <br/>
+                            <GotPerson5/>
+                            <br/>
+                            <blockquote class="blockquote mb-0">
+                                <p>Fontes e referecias.</p>
+                                <footer class="blockquote-footer"><cite title="Source Title">Wikipedia, Wiki Gelo e Fogo</cite></footer>
+                            </blockquote>
+                    </Collapse2>
                 </div>
                 <div id='Casas'className='TitleAccordion'>
                     <BtnAcordion3>As prinncipais casas</BtnAcordion3>
-                    <Collapse3></Collapse3>
+                    <Collapse3>
+                            <House1/>
+                            <br/>
+                            <House2/>
+                            <br/>
+                            <blockquote class="blockquote mb-0">
+                                <p>Fontes e referecias.</p>
+                                <footer class="blockquote-footer"><cite title="Source Title">Wikipedia, Wiki Gelo e Fogo</cite></footer>
+                            </blockquote>
+                    </Collapse3>
                 </div>
                 <div id='SerieTv'className='TitleAccordion'>
                     <BtnAcordion4>Série de TV</BtnAcordion4>
-                    <Collapse4></Collapse4>
+                    <Collapse4>
+                            <Seasons1/>
+                            <br/>
+                            <Seasons2/>
+                    </Collapse4>
                 </div>
                 <div id='livros'className='TitleAccordion'>
                     <BtnAcordion5>Obras literárias</BtnAcordion5>
-                    <Collapse5></Collapse5>
+                    <Collapse5>
+                            <Book1/>
+                            <br/>
+                            <Book2/>
+                    </Collapse5>
                 </div>
                 <div id='Cultura'className='TitleAccordion'>
                     <BtnAcordion6>As Cronicas de Gelo e Fog na cultura popular</BtnAcordion6>
-                    <Collapse6></Collapse6>
+                    <Collapse6>
+                            <Culture/>
+                    </Collapse6>
                 </div>
                 <div id='temas'className='TitleAccordion'>
                     <BtnAcordion7>Principais Temas e inspiração</BtnAcordion7>
-                    <Collapse7></Collapse7>
+                    <Collapse7>
+                            <Inspiration/>
+                    </Collapse7>
                 </div>
                 <div id='obras'className='TitleAccordion'>
                     <BtnAcordion8>Outras obras derivadas</BtnAcordion8>
-                    <Collapse8></Collapse8>
+                    <Collapse8>
+                            <SpinOff/>
+                    </Collapse8>
                 </div>
                 
                 

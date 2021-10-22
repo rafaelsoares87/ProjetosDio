@@ -3,17 +3,12 @@ const HistoryGoT = ()=>{
     return( 
         <>
 
-            
-
-                
-                
-                
 
                 
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text">
+                                <p className="card-text TextBody">
                                         Os livros narram os acontecimentos dos Sete Reinos, onde uma 
                                         guerra pela posse do Trono de Ferro é travada. A história se desenvolve
                                         principalmente no continente de Westeros, cuja extensão é equivalente à
