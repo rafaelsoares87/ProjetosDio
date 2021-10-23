@@ -1,6 +1,13 @@
+import HPAcordion from "../components/HarryPotter/HPAccordion/HPAcordion"
+import HPTitler from "../components/HarryPotter/HPHistory/HPHistory"
+
+
 const HarryPotter = () => {
     return(
-        <h1>Testando page Harry Potter</h1>
+        <div>
+                <HPTitler/>
+                <HPAcordion/>
+        </div>
     )
 }
 
