@@ -1,6 +1,13 @@
+import StarWAcordion from "../components/StarWars/AcordionStarWars/StarWAcordion"
+import SWTitler from "../components/StarWars/SWTitler/SWTitler"
+
 const StarWars = () => {
     return(
-        <h1>Testando page Star Wars</h1>
+        <>
+            <SWTitler/>
+            <StarWAcordion/>
+
+        </>
     )
 }
 
