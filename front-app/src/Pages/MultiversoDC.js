@@ -1,6 +1,12 @@
+import AcordionDC from "../components/UniversoDC/AcordionDC"
+import TitlerDc from "../components/UniversoDC/TitlerDc"
+
 const MultiversoDC = () => {
     return(
-        <h1>Testando page MultiversoDC</h1>
+        <> 
+            <TitlerDc/>
+            <AcordionDC/>
+        </>
     )
 }
 
