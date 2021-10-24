@@ -1,6 +1,13 @@
+import StrekAcordion from "../components/StarTrek/StarTrekAcordion/StarTrekAcordion"
+import TitlerStrek from "../components/StarTrek/TitlerSTrek/TitlerStrek"
+import SWTitler from "../components/StarWars/SWTitler/SWTitler"
+
 const StarTrek = () => {
     return(
-        <h1>Testando page Star Trek</h1>
+        <>
+            <TitlerStrek/>
+            <StrekAcordion/>
+        </>
     )
 }
 
