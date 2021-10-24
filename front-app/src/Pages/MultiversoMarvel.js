@@ -1,6 +1,13 @@
+import MarvelAcordion from "../components/MarvelUniverse/MarvelAcordion"
+import MarvelTitle from "../components/MarvelUniverse/MarvelTitle"
+
 const MultiversoMarvel = () => {
     return(
-        <h1>Testando page MultiversoMarvel</h1>
+        <>
+            <MarvelTitle/>
+            <MarvelAcordion/>
+            
+        </>
     )
 }
 
