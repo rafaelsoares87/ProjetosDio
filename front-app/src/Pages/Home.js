@@ -39,7 +39,7 @@ const Home = ()=>{
                     <ListGroup>
                         <a href="/multiversoDc" type="button" className="btn btn-outline-success">Multiverso DC</a> <br/>
                         <a href="multiversomarvel" type="button" className="btn btn-outline-success">Multiverso Márvel</a> <br/>
-                        <a href="/Game-of-thrones" type="button" className="btn btn-outline-success">Multiverso Dragon Ball </a> <br/>
+                        <a href="/Game-of-thrones" type="button" className="btn btn-outline-success disabled">Multiverso Dragon Ball </a> <br/>
 
 
                     </ListGroup>
@@ -63,16 +63,16 @@ const Home = ()=>{
             <Grid>
                 <Colum>
                     <ListGroup>
-                            <a href="/Game-of-thrones" type="button" className="btn btn-outline-success">Biografia dos Autores </a> <br/>
-                            <a href="/Universo-Tolkien" type="button" className="btn btn-outline-success">Livros</a> <br/>
+                            <a href="#" type="button" className="btn btn-outline-success disabled">Biografia dos Autores </a> <br/>
+                            <a href="#" type="button" className="btn btn-outline-success disabled">Livros</a> <br/>
                             
                         
                     </ListGroup>
                 </Colum>
                 <Colum>
                     <ListGroup>
-                            <a href="/Game-of-thrones" type="button" className="btn btn-outline-success">Eventos de Fãs ao redor do mundo</a> <br/>
-                            <a href="/Universo-Tolkien" type="button" className="btn btn-outline-success">Os universos fantásticos em novas séries</a> <br/>
+                            <a href="/Game-of-thrones" type="button" className="btn btn-outline-success disabled">Eventos de Fãs ao redor do mundo</a> <br/>
+                            <a href="/Universo-Tolkien" type="button" className="btn btn-outline-success disabled">Os universos fantásticos em novas séries</a> <br/>
                             
                         
                     </ListGroup>

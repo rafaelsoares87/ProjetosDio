@@ -2,8 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from '../Pages/Home';
-import Empresa from '../Pages/Empresa';
-import Sobre from '../Pages/Sobre';
+
 import GOT from '../Pages/GOT';
 import StarTrek from '../Pages/StarTrek';
 import StarWars from '../Pages/StarWas';
@@ -18,8 +17,7 @@ const Routes = () => {
   return (
     <Switch>
       <Route exact path='/' component={Home}></Route>
-      <Route  path='/empresa' component={Empresa}></Route>
-      <Route  path='/sobre' component={Sobre}></Route>
+     
 
       
       <Route  path='/Game-of-thrones' component={GOT}></Route>
